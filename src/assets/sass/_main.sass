@@ -1,0 +1,64 @@
+*, *::before, *::after
+	box-sizing: border-box
+
+html
+
+body
+	color: #353535
+	font-family: $f_text
+
+#app
+	width: 80%
+	max-width: 31.25rem
+	margin: auto
+	overflow: hidden
+	position: relative
+	background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%)
+	padding: 1em 2em
+
+	// width: 400px
+	// max-width: 95vw
+	min-height: 43.75rem
+	// height: 97vh
+	// max-height: 700px
+	margin: 5vh auto
+	border-radius: $b_radius
+	box-shadow: $shadow
+
+h1
+	text-align: center
+	font-size: 3rem
+
+.row
+	margin-top: 3em
+	width: 100%
+	display: flex
+	justify-content: space-between
+
+.center
+	margin: auto
+
+.alert
+	width: 17.5rem
+	display: flex
+	flex-direction: column
+	background: $c_dark
+	color: $c_light
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	padding: 3em 1em
+	border-radius: $b_radius
+	text-align: center
+
+	& h2
+		font-size: 1.3rem
+		margin: 0 0 2em
+
+.error
+	color: red
+
+.additionals
+	display: flex
+	flex-direction: column

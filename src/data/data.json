@@ -1,0 +1,57 @@
+
+{
+	"short": {
+		"packs": [
+			{
+				"name": "Základný",
+				"price": 1.2
+			},
+			{
+				"name": "Rozšírený",
+				"price": 1.8
+			},
+			{
+				"name": "Extra",
+				"price": 2.4
+			}
+
+		],
+		"additionals": [
+			{
+				"name": "Storno cesty",
+				"price": 1.5
+			},
+			{
+				"name": "Športové aktivity",
+				"price": 1.3
+			}
+		]
+	},
+	"year": {
+		"packs": [
+			{
+				"name": "Základný",
+				"price": 39
+			},
+			{
+				"name": "Rozšírený",
+				"price": 49
+			},
+			{
+				"name": "Extra",
+				"price": 59
+			}
+
+		],
+		"additionals": [
+			{
+				"name": "Storno cesty",
+				"price": 1.2
+			},
+			{
+				"name": "Športové aktivity",
+				"price": 1.1
+			}
+		]
+	}
+}
